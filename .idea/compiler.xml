@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sl-consumer" />
+        <module name="sl-info-search" />
+        <module name="sl-provide" />
+        <module name="sl-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sl-consumer" target="1.8" />
+      <module name="sl-eurake" target="1.8" />
+      <module name="sl-info-search" target="1.8" />
+      <module name="sl-provide" target="1.8" />
+      <module name="sl-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
